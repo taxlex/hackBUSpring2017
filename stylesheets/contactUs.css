@@ -70,7 +70,11 @@ body{
 #nav ul ul li a:hover{
     color: #099;
 }
-#login{
-    background: url(images/griffin_drawn.png);
-    text-align:center;
+#dualul1{
+    float:left;
+    width:50%;
+}
+#dualul{
+    float:right;
+    width:50%;
 }
