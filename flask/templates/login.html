@@ -2,10 +2,10 @@
 <html>
    <head>
         <title>lionEagle login</title> 
-       <link href="stylesheets/login.css" type="text/css" rel="stylesheet">
+       <link href="{{url_for('static', filename='stylesheets/login.css')}}" type="text/css" rel="stylesheet">
        <script src="javascripts/main.js"></script>
     </head> 
-    <body background = "images/griffin_drawn.png">
+    <body background = "{{url_for('static', filename='images/griffin_drawn.png')}}">
         <div id="nav">
             <div id="nav_wrapper">
                 <ul>

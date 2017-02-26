@@ -2,17 +2,17 @@
 <html>
    <head>
         <title>lionEagle login</title> 
-       <link href="stylesheets/about.css" type="text/css" rel="stylesheet">
+       <link href="{{url_for('static', filename='stylesheets/about.css')}}" type="text/css" rel="stylesheet">
        <script src="javascripts/main.js"></script>
     </head> 
-     <body background = "images/griffin_drawn.png">
-        <div id="nav">
+     <body background = "{{url_for('static', filename='images/griffin_drawn.png')}}">
+       <div id="nav">
             <div id="nav_wrapper">
                 <ul>
-                    <li><a href ="index.html"><img src = images/griffin.png height="50"></a>
+                    <li><img src = "{{url_for('static', filename='images/griffin.png')}}" height="50" href ="index.html">
                         <ul>
-                            <li><a href="contactUs.html">Contact Us</a></li>
-                            <li><a href="#">Clients</a></li>
+                            <li><a href="contactUs.html">Contact</a></li>
+                            <li><a href="about.html">About</a></li>
                         </ul>
                     </li>
                     <li>lionEagle</li>
@@ -20,6 +20,7 @@
                     
                 </ul>
             </div>
+        </div>
         </div>
         <p id="about">lionEagle is designed to bring together freelance developers and the companies that need them. Our mission is to provide a steady stream of work for independent developers while promoting the free, open culture that gives them their strength.</p>
     </body>
