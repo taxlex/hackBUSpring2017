@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
    <head>
-        <title>lionEagle contact Us</title> 
-       <link href="stylesheets/contactUs.css" type="text/css" rel="stylesheet">
+        <title>lionEagle login</title> 
+       <link href="stylesheets/signUp.css" type="text/css" rel="stylesheet">
        <script src="javascripts/main.js"></script>
     </head> 
     <body background = "images/griffin_drawn.png">
@@ -21,22 +21,21 @@
                 </ul>
             </div>
         </div>
-        <p>lionEagle is made possible by the work of Alexander Benedict and Alexander Lagas. They are both computer science majors in Binghamton University's class of 2018.</p>
-        <div id="dualul1">
-            <h2>Alexander Benedict</h2>
-            <ul>
-                <li>Email: Abenedi1@binghamton.edu</li>
-                <li>GitHub: github.com/taxlex</li>
-            </ul>
+        <br/><br/><br/><br/>
+        <div id="titleLogin">
+            <h2>Sign Up</h2>
         </div>
-         <div id="dualul">
-            <h2>Alexander Lagas</h2>
-            <ul>
-                <li>Email: Alagas1@binghamton.edu</li>
-                <li>GitHub: github.com/alagas5996</li>
-            </ul>
+        <div id="login">
+            <form action="main.php" method="POST">
+                <br/><br/>
+                Email: <input type="text" name="txtbox" id="email"/>
+                <br/><br/>
+                Username: <input type="text" name="txtbox" id="usrnm"/><br/><br/>
+                Password: <input type="password" name="pass" id="pass"/><br/><br/>
+                Confirm Password: <input type="text" name="txtbox" id="confpass"/><br/><br/>
+                
+                <input type="submit" id="btn" value="Sign in"/>
+            </form>
         </div>
-        
-        
     </body>
 </html>

@@ -7,12 +7,6 @@ body{
     font-size: 18px;
     color:white;
 }
-p{
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    padding 20px;
-}
 #nav{
     background: #222;
 }
@@ -77,11 +71,22 @@ p{
 #nav ul ul li a:hover{
     color: #099;
 }
-#dualul1{
-    float:left;
-    width:50%;
+#titleLogin{
+    text-align:center;
 }
-#dualul{
-    float:right;
-    width:50%;
+#login{
+    background: url(images/griffin_drawn.png);
+    text-align:center;
+}
+#email{
+    text-align: center;
+}
+#usrnme{
+    text-align: center;
+}
+#pass{
+    text-align: center;
+}
+#confpass{
+    text-align: center;
 }

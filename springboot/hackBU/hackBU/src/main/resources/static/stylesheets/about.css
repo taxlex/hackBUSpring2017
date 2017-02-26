@@ -7,12 +7,6 @@ body{
     font-size: 18px;
     color:white;
 }
-p{
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    padding 20px;
-}
 #nav{
     background: #222;
 }
@@ -77,11 +71,9 @@ p{
 #nav ul ul li a:hover{
     color: #099;
 }
-#dualul1{
-    float:left;
-    width:50%;
-}
-#dualul{
-    float:right;
-    width:50%;
+#about{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
 }
