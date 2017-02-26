@@ -34,7 +34,7 @@ p{
 }
 #nav ul li:nth-child(2){
     font-size:40px;
-    padding:10px;
+    padding:5px;
 }
 #nav ul li:last-child{
     float:right;
