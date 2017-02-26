@@ -5,7 +5,7 @@
        <link href="{{url_for('static', filename='stylesheets/main.css')}}" type="text/css" rel="stylesheet">
        <script src="javascripts/main.js"></script>
     </head> 
-    <body>
+    <body background = "{{url_for('static', filename='images/griffin_drawn.png')}}">
         <div id="nav">
             <div id="nav_wrapper">
                 <ul>
@@ -22,6 +22,6 @@
                 </ul>
             </div>
         </div>
-        <img src = images/lightbulb.jpg>
+        <img src = "{{url_for('static', filename='images/lightbulb.jpg')}}">
     </body>
 </html>
