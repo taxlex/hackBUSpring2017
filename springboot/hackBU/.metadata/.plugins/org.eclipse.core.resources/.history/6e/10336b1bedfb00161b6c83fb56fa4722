@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>lionEagle home</title> 
+       <link href=@{templates/main.css} type="text/css" rel="stylesheet">
+       <script src="javascripts/main.js"></script>
+    </head> 
+    <body>
+        <div id="nav">
+            <div id="nav_wrapper">
+                <ul>
+                    <li><img src = images/griffin.png height="50" href ="index.html">
+                        <ul>
+                            <li><a href="contactUs.html">Contact Us</a></li>
+                            <li><a href="#">Clients</a></li>
+                        </ul>
+                    </li>
+                    <li>lionEagle</li>
+                    <li><a href="login.html">Login/signup</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <img src = images/sand.jpg>
+    </body>
+</html>

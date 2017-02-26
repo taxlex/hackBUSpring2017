@@ -70,6 +70,9 @@ body{
 #nav ul ul li a:hover{
     color: #099;
 }
+#titleLogin{
+    text-align:center;
+}
 #login{
     background: url(images/griffin_drawn.png);
     text-align:center;
