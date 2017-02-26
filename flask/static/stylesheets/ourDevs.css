@@ -86,3 +86,6 @@ body{
     margin-left: auto;
     padding: 50px;
 }
+#profile2{
+    transform: rotate(90deg);
+}
