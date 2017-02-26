@@ -23,6 +23,10 @@ def signUp():
 @app.route('/about')
 def about():
     return render_template('about.html')
+    
+@app.route('/ourDevs')
+def ourDevs():
+    return render_template('ourDevs.html')
 
 
 if __name__ == '__main__':
