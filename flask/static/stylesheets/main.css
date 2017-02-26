@@ -28,6 +28,7 @@ body{
 }
 #nav ul li:nth-child(2){
     font-size: 40px;
+    padding: 5px;
 }
 #nav ul li:last-child{
     float:right;
@@ -69,4 +70,7 @@ body{
 }
 #nav ul ul li a:hover{
     color: #099;
+}
+#s1{
+   text-align:center;
 }
