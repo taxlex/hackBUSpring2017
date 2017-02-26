@@ -27,7 +27,8 @@ body{
     vertical-align: bottom;
 }
 #nav ul li:nth-child(2){
-    font-size:50px;
+    font-size:40px;
+    padding:5px;
 }
 #nav ul li:last-child{
     float:right;
