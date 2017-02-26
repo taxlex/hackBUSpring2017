@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>lionEagle login</title> 
+       <link href="stylesheets/signUp.css" type="text/css" rel="stylesheet">
+       <script src="javascripts/main.js"></script>
+    </head> 
+    <body background = "images/griffin_drawn.png">
+        <div id="nav">
+            <div id="nav_wrapper">
+                <ul>
+                    <li><a href ="index.html"><img src = images/griffin.png height="50"></a>
+                        <ul>
+                            <li><a href="contactUs.html">Contact Us</a></li>
+                            <li><a href="#">Clients</a></li>
+                        </ul>
+                    </li>
+                    <li>lionEagle</li>
+                    <li><a href="login.html">Login/signup</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <br/><br/><br/><br/>
+        <div id="titleLogin">
+            <h2>Sign Up</h2>
+        </div>
+        <div id="login">
+            <form action="main.php" method="POST">
+                <br/><br/>
+                Email: <input type="text" name="txtbox" id="email"/>
+                <br/><br/>
+                Username: <input type="text" name="txtbox" id="usrnm"/><br/><br/>
+                Password: <input type="password" name="pass" id="pass"/><br/><br/>
+                Confirm Password: <input type="text" name="txtbox" id="confpass"/><br/><br/>
+                
+                <input type="submit" id="btn" value="Sign in"/>
+            </form>
+        </div>
+    </body>
+</html>
