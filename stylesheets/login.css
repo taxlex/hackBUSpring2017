@@ -5,7 +5,7 @@ body{
     overflow-y: scroll;
     font-family: Arial;
     font-size: 18px;
-    color:black;
+    color:white;
 }
 #nav{
     background: #222;
@@ -69,7 +69,7 @@ body{
     color: #099;
 }
 
-
 #login{
+    background: url(images/griffin_drawn.png);
     text-align:center;
 }
