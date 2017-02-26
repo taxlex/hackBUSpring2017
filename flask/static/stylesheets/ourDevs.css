@@ -22,14 +22,6 @@ body{
     position: relative;
     color:white;
 }
-#profile{
-	display:inline-block;
-    float:left;
-}
-#info{
-	display:inline-block;
-    float:right;
-}
 
 #nav ul li{
     display: inline-block;
@@ -80,11 +72,15 @@ body{
 #nav ul ul li a:hover{
     color: #099;
 }
-#about{
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 50px;
+#profile{
+	display:inline-block;
+    vertical-align:top;
+    margin-right: 0px;
+}
+#info{
+	float: left;
+	display:inline-block;
+    vertical-align:top;
 }
 #profile2{
     transform: rotate(90deg);

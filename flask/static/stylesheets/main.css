@@ -27,7 +27,7 @@ body{
     vertical-align: bottom;
 }
 #nav ul li:nth-child(2){
-    font-size:50px;
+    font-size: 40px;
 }
 #nav ul li:last-child{
     float:right;
@@ -62,7 +62,7 @@ body{
     padding: 15px;
 }
 #nav ul ul li:nth-child(2){
-    font-size:18px
+    font-size:15px
 }
 #nav ul ul li a,visited{
     color: #ccc;
