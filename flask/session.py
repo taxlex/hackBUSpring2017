@@ -11,14 +11,18 @@ def index():
 @app.route('/login')
 def login():
     return render_template('login.html')
- 
-@app.route('/about')
-def login():
-    return render_template('login.html')
+  
   
 @app.route('/contactUs')
-def login():
-    return render_template('login.html')
+def contactUs():
+    return render_template('contactUs.html')
+
+@app.route('/signUp')
+def signUp():
+    return render_template('signUp.html')
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 
 if __name__ == '__main__':
