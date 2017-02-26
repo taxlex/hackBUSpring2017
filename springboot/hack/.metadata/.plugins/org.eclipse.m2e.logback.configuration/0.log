@@ -1,0 +1,34 @@
+2017-02-26 03:20:54,577 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ /home/lex/Documents/hackBUSpring2017/springboot/hack/hack2017/pom.xml.
+2017-02-26 03:20:55,458 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hack2017/src/main/java
+2017-02-26 03:20:55,458 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hack2017/src/main/resources
+2017-02-26 03:20:55,463 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hack2017/src/main/resources
+2017-02-26 03:20:55,471 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hack2017/src/test/java
+2017-02-26 03:20:55,635 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2017-02-26 03:20:55,637 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-02-26 03:20:56,102 [Worker-17] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ /home/lex/Documents/hackBUSpring2017/springboot/hack/hack2017/pom.xml.
+2017-02-26 03:20:56,434 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hack2017/src/main/java
+2017-02-26 03:20:56,435 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hack2017/src/main/resources
+2017-02-26 03:20:56,439 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /hack2017/src/main/resources
+2017-02-26 03:20:56,445 [Worker-17] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hack2017/src/test/java
+2017-02-26 03:20:56,561 [Worker-17] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-02-26 03:20:58,772 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-26 03:20:58,775 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-02-26 03:20:58,785 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-26 03:20:58,790 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-26 03:20:58,795 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lex/Documents/hackBUSpring2017/springboot/hack/hack2017/src/test/resources
+2017-02-26 03:23:04,938 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-26 03:23:04,941 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-26 03:23:04,943 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2017-02-26 03:23:04,950 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-26 03:23:04,950 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lex/Documents/hackBUSpring2017/springboot/hack/hack2017/src/test/resources
+2017-02-26 03:23:19,125 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-26 03:23:19,127 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-02-26 03:23:19,132 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 14 resources
+2017-02-26 03:23:19,134 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-26 03:23:19,135 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lex/Documents/hackBUSpring2017/springboot/hack/hack2017/src/test/resources
+2017-02-26 03:37:38,471 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ /home/lex/Documents/hackBUSpring2017/springboot/hack/hack2017/pom.xml.
+2017-02-26 03:37:38,732 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-26 03:37:38,733 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-26 03:37:38,733 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-02-26 03:37:38,737 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-02-26 03:37:38,738 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/lex/Documents/hackBUSpring2017/springboot/hack/hack2017/src/test/resources
