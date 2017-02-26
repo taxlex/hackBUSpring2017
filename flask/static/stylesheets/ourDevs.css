@@ -72,16 +72,12 @@ body{
 #nav ul ul li a:hover{
     color: #099;
 }
+
 #profile{
-	display:inline-block;
-    vertical-align:top;
-    margin-right: 0px;
+	float:left;
 }
 #info{
-	float: left;
-	display:inline-block;
-    vertical-align:top;
+	float:right;
 }
 #profile2{
-    transform: rotate(90deg);
 }
