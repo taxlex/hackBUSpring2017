@@ -74,10 +74,9 @@ body{
 }
 
 #profile{
+	display:block;
 	float:left;
 }
 #info{
 	float:right;
-}
-#profile2{
 }
