@@ -61,9 +61,11 @@ body{
 #nav ul ul li{
     display: block;
     padding: 15px;
+    text-align:left;
 }
 #nav ul ul li:nth-child(2){
-    font-size:18px
+    font-size:18px;
+    padding: 15px;
 }
 #nav ul ul li a,visited{
     color: #ccc;
