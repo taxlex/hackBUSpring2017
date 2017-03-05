@@ -2,17 +2,30 @@ from flask import Flask, session, render_template, request, redirect, g, url_for
 import os
 
 app = Flask(__name__)
+app.secret_key = os.urandom(24)
 
 @app.route('/')
 def index():
 	return render_template('index.html')
 
 
-@app.route('/login')
+@app.route('/login', methods=['GET', 'POST'])
 def login():
-    return render_template('login.html')
+	session['user'] = 'Lex'
+	if request.method == 'POST':
+		session.pop('user',None)
+		if request.form['password'] == 'password':
+			session['user'] = request.form['username']
+			return redirect(url_for('/ourDevs'))
+		return 'didnt work'
+	return render_template('login.html')
   
-  
+@app.route('/getsession')
+def getsession():
+	if 'user' in session:
+		return session['user']
+		
+	return 'not logged in' 
 @app.route('/contactUs')
 def contactUs():
     return render_template('contactUs.html')
