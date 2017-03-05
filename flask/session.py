@@ -11,13 +11,15 @@ def index():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
+	error = ''
 	if request.method == 'POST':
 		session.pop('user',None)
 		if request.form['password'] == 'password':
 			session['user'] = request.form['username']
 			return redirect(url_for('ourDevs'))
-		return 'didnt work'
-	return render_template('login.html')
+		else:
+			error = 'Invalid username or password'
+	return render_template('login.html', error=error)
   
 @app.route('/getsession')
 def getsession():
