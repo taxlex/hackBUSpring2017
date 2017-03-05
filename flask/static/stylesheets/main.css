@@ -7,6 +7,12 @@ body{
     font-size: 18px;
     color:white;
 }
+p{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding 20px;
+}
 #nav{
     background: #222;
 }
@@ -28,7 +34,7 @@ body{
 }
 #nav ul li:nth-child(2){
     font-size: 40px;
-    padding: 5px;
+    padding: 10px;
 }
 #nav ul li:last-child{
     float:right;
@@ -75,4 +81,51 @@ body{
 }
 #s1{
    text-align:center;
+}
+#about{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+}
+#dualul1{
+    float:left;
+    width:50%;
+}
+#dualul{
+    float:right;
+    width:50%;
+}
+#titleLogin{
+    text-align:center;
+}
+#login{
+    background: url(images/griffin_drawn.png);
+    text-align:center;
+}
+#profile{
+	display:block;
+	float:left;
+}
+#info{
+	float:right;
+}
+#titleLogin{
+    text-align:center;
+}
+#login{
+    background: url(images/griffin_drawn.png);
+    text-align:center;
+}
+#email{
+    text-align: center;
+}
+#usrnme{
+    text-align: center;
+}
+#pass{
+    text-align: center;
+}
+#confpass{
+    text-align: center;
 }
