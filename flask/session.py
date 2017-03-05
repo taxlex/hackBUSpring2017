@@ -11,12 +11,11 @@ def index():
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-	session['user'] = 'Lex'
 	if request.method == 'POST':
 		session.pop('user',None)
 		if request.form['password'] == 'password':
 			session['user'] = request.form['username']
-			return redirect(url_for('/ourDevs'))
+			return redirect(url_for('ourDevs'))
 		return 'didnt work'
 	return render_template('login.html')
   
@@ -26,6 +25,14 @@ def getsession():
 		return session['user']
 		
 	return 'not logged in' 
+	
+	
+@app.route('/dropsession')
+def dropsession():
+	session.pop('user', None)
+	return 'dropped'
+	
+	
 @app.route('/contactUs')
 def contactUs():
     return render_template('contactUs.html')
