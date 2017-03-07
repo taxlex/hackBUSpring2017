@@ -1,5 +1,15 @@
 from flask import Flask, session, render_template, request, redirect, g, url_for
 import os
+class Account:
+	def __init__(self, userName, passwordu):
+		self.userName = userName
+		self.passwordu = passwordu
+	def validAccount(self, uname, passW):
+		if(uname == self.userName and passW == self.passwordu):
+			return True
+		return False
+
+usr1 = Account('lex','pass')
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
@@ -14,7 +24,7 @@ def login():
 	error = ''
 	if request.method == 'POST':
 		session.pop('user',None)
-		if request.form['password'] == 'password':
+		if usr1.validAccount(request.form['username'], request.form['password']):
 			session['user'] = request.form['username']
 			return redirect(url_for('ourDevs'))
 		else:
